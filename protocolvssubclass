@@ -1,3 +1,5 @@
+SUBCLASSING:
+
 A subclass inherits methods and instance variables from its superclass.
 
 If we have a class called classname and we would like it to have a subclass called subclassname.It can be declared as:
@@ -24,16 +26,12 @@ So we may have subclasses such as "manual cars", "automatic cars", "convertibles
 
 
 
-
-
-
-
-protocol
+PROTOCOL:
 
 A protocol declares a programmatic interface that any class may choose to implement. Protocols make it possible for two classes distantly related by inheritance to communicate with each other to accomplish a certain goal. They thus offer an alternative to subclassing. Any class that can provide behavior useful to other classes may declare a programmatic interface for vending that behavior anonymously. Any other class may choose to adopt the protocol and implement one or more of its methods, thereby making use of the behavior. The class that declares a protocol is expected to call the methods in the protocol if they are implemented by the protocol adopter. 
 
 
-Formal and Informal Protocols
+FORMAL AND INFORMAL PROTOCOLS:
 
 There are two varieties of protocol, formal and informal:
 
